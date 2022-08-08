@@ -322,8 +322,9 @@ ul {
 
 .footer-index{
     text-align: center;
+    margin-top: 60px;
+    color:white;
     font-size: 18px;
-    color: white;
     background-color: black;
 }
 @media (max-width:768px ) {
@@ -346,25 +347,9 @@ ul {
     margin-bottom: 100px;
     color: white;   
 }
-
-.nuestros-servicios {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
+.titulos-h3 {
     color: white;
-    justify-items:center;  
-
 }
-
-@media (max-width: 768px) {
-    .nuestros-servicios {
-        display: grid;
-        grid-template-columns: 1fr;
-        justify-items: center;
-        gap: 150px;
-    }
-}
-
 
 .footer-nuestros-servicios {
     text-align: center;
